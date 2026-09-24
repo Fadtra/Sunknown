@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Agar tampilan responsif di HP -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - Instagram</title>
+
+    <!-- Menghubungkan HTML dengan CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <!-- Kotak login -->
+        <section class="login-box">
+
+            <!-- Nama aplikasi sebagai pengganti logo resmi -->
+            <h1 class="logo">Instagram</h1>
+
+            <form id="loginForm">
+
+                <!-- Username / email -->
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Username atau email"
+                    autocomplete="off"
+                >
+
+                <!-- Password -->
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Password"
+                >
+
+                <!-- Tombol login -->
+                <button type="submit" id="loginButton">
+                    Log in
+                </button>
+
+                <!-- Pesan validasi -->
+                <p id="message"></p>
+
+            </form>
+
+            <div class="separator">
+                <span>ATAU</span>
+            </div>
+
+            <a href="#" class="forgot">
+                Lupa password?
+            </a>
+
+        </section>
+
+        <!-- Kotak pendaftaran -->
+        <section class="signup-box">
+            <p>
+                Belum punya akun?
+                <a href="#">Daftar</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Menghubungkan HTML dengan JavaScript -->
+    <script src="script/java.js"></script>
+
+</body>
+</html>
